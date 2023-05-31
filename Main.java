@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 class WrongStudentName extends Exception { }
-
+class WrongDateOfBirth extends Exception { }
 class WrongAge extends Exception { }
 class Main {
     public static Scanner scan = new Scanner(System.in);
